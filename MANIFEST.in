@@ -1,0 +1,6 @@
+include README.zh.md
+include CHANGELOG.md SECURITY.md
+include project_summary.md
+recursive-include tests *.py
+recursive-include assets *.png
+recursive-include docs *.md

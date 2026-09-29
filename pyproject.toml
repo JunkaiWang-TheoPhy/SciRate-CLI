@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scirate-cli"
+version = "0.3.0"
+description = "SciRate community reader with a shared CLI and MCP interface"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "AGPL-3.0-only"
+
+[project.urls]
+Repository = "https://github.com/JunkaiWang-TheoPhy/SciRate-CLI"
+Issues = "https://github.com/JunkaiWang-TheoPhy/SciRate-CLI/issues"
+
+[project.scripts]
+scirate = "scirate:main"
+
+[tool.setuptools]
+py-modules = ["scirate", "community", "browser"]

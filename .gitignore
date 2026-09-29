@@ -1,8 +1,9 @@
-.DS_Store
-.env
-.env.*
-!.env.example
 .venv/
 __pycache__/
-node_modules/
+*.pyc
+*.egg-info/
+build/
 dist/
+data/
+*.cookies
+session.json
